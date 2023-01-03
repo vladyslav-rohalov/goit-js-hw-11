@@ -1,0 +1,31 @@
+{
+  "name": "goit-js-hw-10",
+  "version": "1.0.0",
+  "description": "js-hw-10",
+  "homepage": "https://vladyslav-rohalov.github.io/goit-js-hw-11/",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11/ --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladyslav-rohalov/goit-js-hw-11.git"
+  },
+  "author": "Vladyslav Rohalov <domus.lg@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladyslav-rohalov/goit-js-hw-11/issues"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "handlebars": "^4.7.7",
+    "lodash.debounce": "^4.0.8",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.5"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.1",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "parcel-transformer-hbs": "^1.0.4"
+  }
+}
