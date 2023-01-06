@@ -1,0 +1,21 @@
+<ul class='cards-list'>
+  {{#each this}}
+    <li class='cards-list__item'>
+      <a href='{{largeImageURL}}'><img
+          class='cards-list__img'
+          src='{{webformatURL}}'
+          alt='{{tags}}'
+          width='auto'
+          height='100%'
+          loading='lazy'
+        /></a>
+      <ul class='cards-list__description'>
+        <li class='cards-list__info'><strong>Likes</strong> {{likes}}</li>
+        <li class='cards-list__info'><strong>Views</strong> {{views}}</li>
+        <li class='cards-list__info'><strong>Comments</strong> {{comments}}</li>
+        <li class='cards-list__info'><strong>Downloads</strong>
+          {{downloads}}</li>
+      </ul>
+    </li>
+  {{/each}}
+</ul>

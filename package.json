@@ -17,11 +17,13 @@
     "url": "https://github.com/vladyslav-rohalov/goit-js-hw-11/issues"
   },
   "dependencies": {
+    "@parcel/transformer-js": "^2.8.2",
     "axios": "^1.2.2",
     "handlebars": "^4.7.7",
     "lodash.debounce": "^4.0.8",
     "modern-normalize": "^1.1.0",
-    "notiflix": "^3.2.5"
+    "notiflix": "^3.2.5",
+    "simplelightbox": "^2.11.0"
   },
   "devDependencies": {
     "parcel": "^2.8.1",
