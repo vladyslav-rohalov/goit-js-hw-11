@@ -106,3 +106,27 @@ ul {
   pointer-events: none;
   transform: translate(0, -100%) scale(0.1);
 }
+
+.btn-down {
+  position: fixed;
+  background-color: #046ac9;
+  right: 20px;
+  bottom: 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 50px;
+}
+
+.btn-down::before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+  background-image: url(../arrow.svg);
+}

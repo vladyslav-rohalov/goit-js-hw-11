@@ -19,6 +19,7 @@
   "dependencies": {
     "@parcel/transformer-js": "^2.8.2",
     "axios": "^1.2.2",
+    "better-scroll": "^2.5.0",
     "handlebars": "^4.7.7",
     "lodash.debounce": "^4.0.8",
     "modern-normalize": "^1.1.0",
